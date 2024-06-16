@@ -1,4 +1,6 @@
 import math
+
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -9,13 +11,15 @@ def factorial(n):
         result *= i
 
     return result
+
+
 def approx_sin(x, n):
 
     if not (x >= 0 and x <= math.pi):
-        return print(f'x is not radian')
+        return print(f'{x} is not in radians')
 
     if n <= 0:
-        return print(f'n is not positive integer')
+        return print(f'{n} is not positive integer')
 
     result = 0
 
@@ -23,13 +27,15 @@ def approx_sin(x, n):
         result += (-1) ** i * (x ** (2 * i + 1)) / factorial(2 * i + 1)
 
     return result
+
+
 def approx_cos(x, n):
 
     if not (x >= 0 and x <= math.pi):
-        return print(f'x is not radian')
+        return print(f'{x} is not radian')
 
     if n <= 0:
-        return print(f'n is not positive integer')
+        return print(f'{n} is not positive integer')
 
     result = 0
 
@@ -37,13 +43,15 @@ def approx_cos(x, n):
         result += (-1) ** i * (x ** (2 * i)) / factorial(2 * i)
 
     return result
+
+
 def approx_sinh(x, n):
 
     if not (x >= 0 and x <= math.pi):
-        return print(f'x is not radian')
+        return print(f'{x} is not radian')
 
     if n <= 0:
-        return print(f'n is not positive integer')
+        return print(f'{n} is not positive integer')
 
     result = 0
 
@@ -51,13 +59,15 @@ def approx_sinh(x, n):
         result += (x ** (2 * i + 1)) / factorial(2 * i + 1)
 
     return result
+
+
 def approx_cosh(x, n):
 
     if not (x >= 0 and x <= math.pi):
-        return print(f'x is not radian')
+        return print(f'{x} is not radian')
 
     if n <= 0:
-        return print(f'n is not positive integer')
+        return print(f'{n} is not positive integer')
 
     result = 0
 
@@ -65,6 +75,7 @@ def approx_cosh(x, n):
         result += (x ** (2 * i)) / factorial(2 * i)
 
     return result
+
 
 print(approx_sin(x=3.14, n=10))
 print(approx_cos(x=3.14, n=10))
