@@ -16,7 +16,11 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       
-      # Thiết lập Node.js phiên bản 20
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          java-version: 11
+      
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
