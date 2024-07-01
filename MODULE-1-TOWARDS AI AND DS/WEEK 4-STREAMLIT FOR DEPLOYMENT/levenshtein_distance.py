@@ -69,5 +69,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # main()
-    print(levenshtein_distance("elmets", "elements"))
+    main()
