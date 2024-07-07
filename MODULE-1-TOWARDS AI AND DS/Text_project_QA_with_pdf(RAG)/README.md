@@ -28,22 +28,14 @@ File `rag_chatbot_by_chainlit.ipynb` chứa các bước sau:
 ### Yêu cầu hệ thống
 
 - Python 3.7 trở lên
-- Các thư viện được liệt kê trong `requirements.txt`
 
 ### Cài đặt
 
 1. **Clone repository**
 
-   ```bash
-   git clone <repository_url>
-   cd <repository_directory>
-   ```
 
 2. **Cài đặt các thư viện cần thiết**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 3. **Chạy ứng dụng**
 
@@ -54,9 +46,8 @@ File `rag_chatbot_by_chainlit.ipynb` chứa các bước sau:
 Nếu bạn muốn đóng góp cho dự án, hãy fork repository này và tạo pull request. Chúng tôi hoan nghênh các ý tưởng và cải tiến mới.
 
 ## Giấy phép
-
-Dự án này được cấp phép theo [Tên Giấy Phép]. Vui lòng xem tệp LICENSE để biết thêm chi tiết.
+None
 
 ## Liên hệ
 
-Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, vui lòng liên hệ qua email: [email@example.com].
+Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, vui lòng liên hệ qua email: [nguyenhai95bkdn@hmail.com].
